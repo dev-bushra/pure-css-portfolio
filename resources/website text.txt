@@ -1,0 +1,15 @@
+Banner:
+What's up!, Let me introduce myself
+Bushra Aboubida
+A Frontend Developer at Magnifico Co.Ltd
+I develop webapps and systems
+
+About me:
+I'm a passionate web developer from khartoum city, withing a strong & excellent critical-thinking, decision-making, problem-solving and explaining technical matters clearley.
+I have many experience in web field and i enjoy building accessible component-based and web pages and also software systems.
+I'm willing to learn more and more in my field of study to become a better developer than i was yesterday.
+I have also achieved a good understanding of maching learning, as well as solid computer science foundations such as complex algorithms and code challenge type problem solving.
+
+
+Projects:
+Here are some of the projects withing my experience..

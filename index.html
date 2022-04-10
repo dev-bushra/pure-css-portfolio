@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dev. Bushra</title>
+
+    <!-- link -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/images/favicon.png">
+    <!-- cool progamming languages icon cdn => devicon.dev -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+
+
+<body oncopy="return false" oncut="return false" onpaste="return false">
+
+
+
+    <!-- header -->
+    <header class="header header-active" id="header">
+
+        <div class="logo-container">
+            <a href="#banner">
+                <img src="/images/logo.png" alt="logo" class="logo-img">
+            </a>
+        </div>
+
+
+        <!-- navbar -->
+        <div class="navbar" id="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="#about" class="navbar-link"> <span class="number">1.</span> About</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#skills" class="navbar-link"> <span class="number">2.</span> Skills</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#projects" class="navbar-link"> <span class="number">3.</span> Projects</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#contact" class="navbar-link"> <span class="number">4.</span> Contact</a>
+                </li>
+
+                <!-- toggler close icon -->
+                <div class="close-icon" id="closeicon">
+                    <i class="css-close-icon icon"></i>
+                </div>
+
+            </ul>
+
+            <div class="resume-container">
+                <a download="" href="/Bushra Resume.pdf" class="resume-btn">Resume</a>
+            </div>
+
+        </div><!-- / .navbar -->
+
+
+        <!-- toggler -->
+        <div class="navbar-toggler" id="toggler">
+            <i class="uil uil-list-ui-alt toggler-icon"></i>
+        </div>
+
+    </header>
+
+
+    <!-- to top button -->
+    <div class="to-top-btn">
+        <a href="#banner"><i class="uil uil-angle-double-up to-top-icon"></i></a>
+    </div>
+
+
+    <!-- social links (left line) -->
+    <div class="col left-col">
+
+        <div class="social-icons">
+
+            <div>
+                <a href="https://www.linkedin.com/in/dev-bushra/" target="_blank">
+                    <i class="uil uil-linkedin-alt left-col-icon"></i></a>
+            </div>
+
+            <div>
+                <a href="https://github.com/dev-bushra" target="_blank">
+                    <i class="uil uil-github-alt left-col-icon"></i></a>
+            </div>
+
+            <div>
+                <a href="https://www.instagram.com/dev.bushra/" target="_blank">
+                    <i class="uil uil-instagram left-col-icon"></i></a>
+            </div>
+        </div>
+
+        <div class="left-line-container"></div>
+
+    </div><!-- / .left-col -->
+
+
+    <!-- email address (right line) -->
+    <div class="col right-col">
+
+        <div class="email-container">
+            bushragtv@gmail.com
+        </div>
+
+        <div class="right-line-container"></div>
+
+    </div><!-- / .right-col -->
+
+
+    <div class="main-container">
+
+
+        <!-- banner -->
+        <section class="banner section" id="banner">
+            <div class="container">
+
+                <div class="content">
+                    <div class="content-text">
+                        <h6 class="intro-text">What's up!, Let me introduce myself</h6>
+                        <h1 class="name">Bushra Aboubida</h1>
+                        <h3 class="sub-intro">A Frontend Developer</h3>
+                        <p class="banner-p">I develop websites & webapp</p>
+                    </div>
+
+                    <div class="banner-btn-container">
+                        <a href="https://solo.to/dev.bushra" target="_blank" class="banner-btn">
+                            Get In touch <i class="uil uil-message icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="scroll-down-container">
+                    <i class="uil uil-mouse-alt mouse-icon"></i>
+                    <a href="#about">
+                        <h6 class="scroll-down">Scroll Down</h6>
+                    </a>
+                    <i class="uil uil-angle-double-down icon"></i>
+                </div>
+
+            </div><!-- / .container -->
+        </section>
+
+
+
+        <!-- about -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="content">
+
+                    <div class="section-title">
+                        <span class="title-number">01 . </span>
+                        <h5 class="title-text">About Me
+                            <div class="underline"><span></span></div>
+                        </h5>
+                    </div>
+
+                    <div class="about-container">
+
+                        <!-- profile image -->
+                        <div class="porfile-image-container">
+                            <div class="image-container">
+                                <img src="/images/me.jpg" alt="profile image" class="profile-image">
+                            </div>
+                        </div><!-- / .about-image-container -->
+
+                        <!-- voice note -->
+                        <div class="voice-note-container">
+
+                            <audio id="player" src="/resources/Bleach.mp3"></audio>
+
+                            <div class="voice-note-player">
+                                <div class="voice-note-controls">
+                                    <i class="uil uil-play" id="playIcon"></i>
+                                </div>
+
+                                <div class="audio-info">
+                                    <span>Voice Intro</span>
+
+                                    <div class="audio-progress-bar">
+                                        <div id="progress"></div>
+                                    </div>
+                                </div>
+                                <div id="current">
+                                    <span>0:00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- cv button -->
+                        <div class="download-cv-btn-container">
+                            <div class="download-cv-btn-container-2">
+                                <a download="" href="/resources/Bushra Resume.pdf" class="download-cv-btn">
+                                    Download CV <i class="uil uil-import download-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div><!-- / .about-container -->
+
+                </div><!-- / .content -->
+            </div><!-- / .container -->
+        </section>
+
+        <!-- skills -->
+        <section class="skills section" id="skills">
+            <div class="container">
+
+                <div class="section-title">
+                    <span class="title-number">02 .</span>
+                    <h5 class="title-text">My Skills
+                        <div class="underline"><span></span></div>
+                    </h5>
+                </div>
+
+                <div class="skills-content">
+
+                    <!-- Frontend -->
+                    <div class="skill-info">
+                        <div class="skill-info-header">
+                            <h1 class="skill-title">Frontend</h1>
+                            <span class="skill-sub-title">5 year experience</span>
+                        </div>
+                        <div class="skill-icons">
+                            <i class="devicon-html5-plain-wordmark colored"></i>
+                            <i class="devicon-css3-plain-wordmark colored"></i>
+                            <i class="devicon-sass-original colored"></i>
+                            <i class="devicon-javascript-plain colored"></i>
+                            <i class="devicon-typescript-plain colored"></i>
+                        </div>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="skill-info">
+                        <div class="skill-info-header">
+                            <h1 class="skill-title">Backend</h1>
+                            <span class="skill-sub-title">3 years experience</span>
+                        </div>
+                        <div class="skill-icons">
+                            <i class="devicon-php-plain colored"></i>
+                            <i class="devicon-java-plain-wordmark colored"></i>
+                            <i class="devicon-python-plain-wordmark colored"></i>
+                        </div>
+                    </div>
+
+                    <!-- Other -->
+                    <div class="skill-info">
+                        <div class="skill-info-header">
+                            <h1 class="skill-title">Others</h1>
+                            <span class="skill-sub-title">1 year experience</span>
+                        </div>
+                        <div class="skill-icons">
+                            <i class="devicon-mysql-plain-wordmark colored"></i>
+                            <i class="devicon-mongodb-plain-wordmark colored"></i>
+                            <i class="devicon-git-plain-wordmark colored"></i>
+                            <i class="devicon-xd-line colored"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- <span class="skill-description">
+                    Ps: I'm willing to learn more skills as required.
+                </span> -->
+
+            </div><!-- / .container -->
+        </section>
+
+        <!-- projects -->
+        <section class=" projects section" id="projects">
+            <div class="container">
+
+                <div class="section-title">
+                    <span class="title-number">03 . </span>
+                    <h5 class="title-text">My Projects
+                        <div class="underline"><span></span></div>
+                    </h5>
+                </div>
+
+                <div class="content-header">
+                    <span class="project-description">
+                        Some of projects withing my experience..
+                    </span>
+                </div>
+
+                <div class="boxes">
+                    <!-- Project- -->
+                    <div class="box">
+
+                        <div class="project-container">
+
+                            <div class="project-container-top">
+                                <div><a href="#" class="wrapper-link indicator" target="_blank"></a></div>
+                                <a href="#" class="live" target="_blank"><span>LIVE</span></a>
+                                <a href="#" class="wrapper-link" target="_blank"><i class="uil uil-github-alt"></i></a>
+                            </div><!-- / .project-container-top -->
+
+                            <div class="project-image-container">
+                                <a href="#" target="_blank">
+                                    <img src="/images/projects/appointment.png" class="project-image">
+                                </a>
+                            </div><!-- / .project-image-container -->
+
+                            <div class="project-text-container">
+                                <h2 class="title"> Project Name </h2>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <div class="software">
+                                    <span>Html</span>
+                                    <span>CSS</span>
+                                    <span>Js</span>
+                                </div>
+                            </div><!-- / .project-text-container -->
+
+                        </div><!-- / .project-container -->
+
+                    </div><!-- / .box -->
+
+
+                    <!-- Project- -->
+                    <div class="box">
+
+                        <div class="project-container">
+
+                            <div class="project-container-top">
+                                <div><a href="#" class="wrapper-link indicator" target="_blank"></a></div>
+                                <a href="#" class="live" target="_blank"><span>LIVE</span></a>
+                                <a href="#" class="wrapper-link" target="_blank"><i class="uil uil-github-alt"></i></a>
+                            </div><!-- / .project-container-top -->
+
+                            <div class="project-image-container">
+                                <a href="#" target="_blank">
+                                    <img src="/images/projects/appointment.png" class="project-image">
+                                </a>
+                            </div><!-- / .project-image-container -->
+
+                            <div class="project-text-container">
+                                <h2 class="title"> Project Name </h2>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <div class="software">
+                                    <span>Html</span>
+                                    <span>CSS</span>
+                                    <span>Js</span>
+                                </div>
+                            </div><!-- / .project-text-container -->
+
+                        </div><!-- / .project-container -->
+
+                    </div><!-- / .box -->
+
+
+                    <!-- Project- -->
+                    <div class="box">
+
+                        <div class="project-container">
+
+                            <div class="project-container-top">
+                                <div><a href="#" class="wrapper-link indicator" target="_blank"></a></div>
+                                <a href="#" class="live" target="_blank"><span>LIVE</span></a>
+                                <a href="#" class="wrapper-link" target="_blank"><i class="uil uil-github-alt"></i></a>
+                            </div><!-- / .project-container-top -->
+
+                            <div class="project-image-container">
+                                <a href="#" target="_blank">
+                                    <img src="/images/projects/appointment.png" class="project-image">
+                                </a>
+                            </div><!-- / .project-image-container -->
+
+                            <div class="project-text-container">
+                                <h2 class="title"> Project Name </h2>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <div class="software">
+                                    <span>Html</span>
+                                    <span>CSS</span>
+                                    <span>Js</span>
+                                </div>
+                            </div><!-- / .project-text-container -->
+
+                        </div><!-- / .project-container -->
+
+                    </div><!-- / .box -->
+
+
+                </div><!-- / .boxes -->
+
+                <div class="project-footer">
+                    <a href="#">SEE MORE</a>
+                </div>
+
+            </div><!-- / .container -->
+        </section>
+
+
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="container">
+
+                <div class="section-title">
+                    <span class="title-number">04 . </span>
+                    <h5 class="title-text">Contact Me
+                        <div class="underline"><span></span></div>
+                    </h5>
+                </div>
+            </div>
+
+            <div class="contact-content grid-container">
+                <div class="contact-top">
+                    <div><i class="uil uil-incoming-call contact-icon"></i>
+                        <span>
+                            <h2 class="contact-title">Call Me</h2>
+                            <span class="contact-desc">+249 999 199580</span>
+                        </span>
+                    </div>
+
+                    <div><i class="uil uil-envelope-download contact-icon"></i>
+                        <span>
+                            <h2 class="contact-title">Email </h2>
+                            <span class="contact-desc">bushragtv@gmail.com</span>
+                        </span>
+                    </div>
+
+                    <div><i class="uil uil-map-marker contact-icon"></i>
+                        <span>
+                            <h2 class="contact-title">Location </h2>
+                            <span class="contact-desc">Khartoum</span>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <form action="https://formsubmit.com/bushragtv@gmail.com" method="POST" id="contact-form">
+                    <div class="form-top">
+                        <span class="field">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required name="Full Name">
+                            <input type="hidden" name="_subject" value="Portifolio Message!">
+                        </span>
+
+                        <span class="field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="Email" required>
+
+                            <!-- Thank you reply -->
+                            <input type="hidden" name="_next" value="https://thankyou.html">
+                            <input type="hidden" name="_captcha" value="false">
+                        </span>
+                    </div>
+
+                    <textarea name="Message" id="message" cols="30" rows="10" placeholder="Your Message"
+                        required></textarea>
+
+                    <button type="submit">Send <i class="uil uil-message "></i></button>
+                </form>
+            </div>
+        </section>
+
+        <!-- social links (in mobile screens) -->
+        <div class="mobile-icons">
+            <div>
+                <a href="https://www.linkedin.com/in/dev-bushra/" target="_blank">
+                    <i class="uil uil-linkedin-alt left-col-icon"></i></a>
+            </div>
+            <div>
+                <a href="https://github.com/dev-bushra" target="_blank">
+                    <i class="uil uil-github-alt left-col-icon"></i></a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/dev.bushra/" target="_blank">
+                    <i class="uil uil-instagram left-col-icon"></i></a>
+            </div>
+        </div><!-- / social links (in mobile screens) -->
+
+        <!-- footer -->
+        <section class="section">
+            <div class="footer">
+                <span>Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script>
+                    &bullet; All Rights Reserved
+                </span>
+            </div>
+        </section>
+
+    </div><!-- / .main-container -->
+
+
+    <!-- script -->
+    <!-- easy scroll animations for web and mobile browsers => unpkg.com -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

@@ -1,7 +1,7 @@
 # pure-css-portfolio
 A small responsive CSS landing-page portfolio with cool modules that you can use in your web projects.
 
-[![pure-css-portfolio](https://github.com/dev-bushra/pure-css-portfolio/blob/main/images/capture.png)[pure-css-portfolio]
+[pure-css-portfolio](https://github.com/dev-bushra/pure-css-portfolio/blob/main/images/capture.png)[pure-css-portfolio]
 
 A set of small, responsive CSS modules that you can use in every web project.
 [https://purecss.io/][pure-css]

@@ -1,11 +1,8 @@
 # pure-css-portfolio
-A small responsive CSS landing-page portfolio with cool modules that you can use in your web projects.
-
 
 ![capture](/images/capture.png)
 
 A set of small, responsive CSS modules that you can use in every web project.
-[https://github.com/dev-bushra/pure-css-portfolio/]
 
 ## Features
 

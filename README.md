@@ -1,14 +1,14 @@
 # pure-css-portfolio
 A small responsive CSS landing-page portfolio with cool modules that you can use in your web projects.
 
-[![Pure-css](https://github.com/dev-bushra/pure-css-portfolio/blob/main/images/capture.png)][pure-css]
+[![pure-css-portfolio](https://github.com/dev-bushra/pure-css-portfolio/blob/main/images/capture.png)[pure-css-portfolio]
 
 A set of small, responsive CSS modules that you can use in every web project.
 [https://purecss.io/][pure-css]
 
 ## Features
 
-meant to be a starting point for every website or web app. We take care
+meant to be a starting point for every website or web app. I take care
 of all the CSS work that every site needs, without making it look cookie-cutter:
 
 - A responsive grid that can be customized to your needs.
@@ -33,12 +33,7 @@ of all the CSS work that every site needs, without making it look cookie-cutter:
 
 ## Get Started
 
-Check out the [Get Started][started] page for more information.
-
-## Build From Source
-
-Optionally, you can build Pure from its source on Github. To do this, you'll
-need to have Node.js and npm installed. We use [Grunt][] to build Pure.
+Check out the [Get Started] page for more information.
 
 ### Build Files
 
@@ -86,23 +81,9 @@ Pure is tested and works in:
 - Android 6+
 
 ## Docs and Website
-
-[Pure's website][pure] is located in the [`site`][pure-site] directory. Please feel free
-to open issues or questions in the Issue tab.
-
-## Contributing
-
-See the [CONTRIBUTING file][] for information on how to contribute to Pure.
+See the [CONTRIBUTING file][] for information on how to contribute.
 
 ## License
 
 This software is free to use under the Yahoo! Inc. BSD-3-Clause license.
 See the [LICENSE file][] for license text and copyright information.
-
-
-[contributing file]: https://github.com/pure-css/pure/blob/master/CONTRIBUTING.md
-[license file]: https://github.com/pure-css/pure/blob/master/LICENSE
-[normalize.css]: http://necolas.github.io/normalize.css/
-[pure]: http://purecss.io/
-[pure-site]: https://github.com/pure-css/pure/tree/master/site
-[started]: https://purecss.io/start/
